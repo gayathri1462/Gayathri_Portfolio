@@ -196,7 +196,7 @@ function createExperienceElement(experience) {
                <p class="role">${experience.role}</p>
                <img src="${experience.logo}" alt="${
     experience.name
-  } Logo" style="max-width: 200px;">
+  } Logo" style="max-width: 200px;display:none;">
                 <h2>${experience.name}</h2>
                 <p class="year">${experience.year}</p>
                 <p class="location">${experience.location}</p>

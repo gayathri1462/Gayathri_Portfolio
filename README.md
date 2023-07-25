@@ -4,7 +4,7 @@
 <h4>Welcome to my portfolio site! This readme file provides an overview of the contents and structure of my portfolio website.</h4>
 <div align="center">
   <h3>
-    <a href="https://jp3jmn.csb.app/" target="_blank" rel=“noreferrer”>
+    <a href="https://gayathri1462.github.io/Gayathri_Portfolio/" target="_blank" rel=“noreferrer”>
       Demo
     </a>
     <span> | </span>

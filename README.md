@@ -17,8 +17,6 @@
 <!-- OVERVIEW -->
 
 ## Overview
-<img width="960" alt="image" src="https://github.com/gayathri1462/ReactQuizApp/assets/42805318/fa1c0fcc-215f-4bd4-b2a5-ac23824c1e4e">
-
 <p>This portfolio site showcases my skills, projects as a Frontend professional. It is designed to provide visitors with a comprehensive understanding of my capabilities and the work I have done.</p>
 
 ### Built With

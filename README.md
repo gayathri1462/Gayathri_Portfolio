@@ -8,7 +8,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://codesandbox.io/s/quizapp-jp3jmn" target="_blank" rel=“noreferrer”>
+    <a href="https://github.com/gayathri1462/Gayathri_Portfolio" target="_blank" rel=“noreferrer”>
       Solution
     </a>
   </h3>

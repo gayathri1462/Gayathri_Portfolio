@@ -15,6 +15,7 @@
 </div>
 
 <!-- OVERVIEW -->
+<img width="924" alt="image" src="https://github.com/gayathri1462/Gayathri_Portfolio/assets/42805318/1a8076f5-8c06-4315-b095-8639ec3e89bd">
 
 ## Overview
 <p>This portfolio site showcases my skills, projects as a Frontend professional. It is designed to provide visitors with a comprehensive understanding of my capabilities and the work I have done.</p>

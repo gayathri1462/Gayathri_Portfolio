@@ -391,7 +391,14 @@ a {
 }
 
 #experience-container h2 {
-  display: none;
+ font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  overflow-wrap: break-word;
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding: 0.25em;
+  border-bottom: 2px solid #9681eb;
 }
 
 #experience-container img {

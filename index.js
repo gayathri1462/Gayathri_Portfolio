@@ -176,7 +176,7 @@ createProjectsSection(projectDetails);
 const experienceDetails = [
   {
     name: "Saarthi.ai",
-    logo: "./images/saarthiLogo.png",
+    logo: "images/saarthiLogo.png",
     role: "Junior Frontend Developer",
     year: "Aug 2022 – Current",
     location: "Bengaluru",

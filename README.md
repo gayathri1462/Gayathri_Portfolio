@@ -1,7 +1,7 @@
 
 
 <h1 align="center">Responsive Personal Portfolio Website</h1>
-<h4>Welcome to my portfolio site! This readme file provides an overview of the contents and structure of my portfolio website.</h4>
+<h4>This readme file provides an overview of the contents and structure of my portfolio website.</h4>
 <div align="center">
   <h3>
     <a href="https://gayathri1462.github.io/Gayathri_Portfolio/" target="_blank" rel=“noreferrer”>

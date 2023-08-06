@@ -102,7 +102,7 @@ const projectDetails = [
     index: "02",
     name: "User Management App Using React",
     logo: "./images/userApp.png",
-    websiteLink: "https://l87ipu.csb.app/",
+    websiteLink: "https://2x7tt5.csb.app/",
     projectLink: "https://github.com/gayathri1462/UserManagementApplication",
     technology: "HTML, CSS, ReactJS, Redux & TypeScript",
     desc:

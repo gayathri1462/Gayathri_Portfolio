@@ -30,12 +30,23 @@ toggleBtn.onclick = () => {
 // skills
 const skills = [
   {
-    category: "Languages",
+    category: "Programming Languages",
     items: ["HTML", "CSS", "JavaScript", "TypeScript", "Python"]
   },
   {
-    category: "Libraries / Frameworks",
-    items: ["ReactJS", "Redux", "React Router", "Axios", "Redux Saga"]
+    category: "Frontend Frameworks / Libraries",
+    items: [
+      "ReactJS",
+      "Redux",
+      "Redux Toolkit",
+      "React Router",
+      "Axios",
+      "Redux Saga"
+    ]
+  },
+  {
+    category: "UI Frameworks",
+    items: ["Ant Design (AntD)", "Material-UI", "Bootstrap"]
   },
   {
     category: "CSS Preprocessor",
@@ -90,23 +101,43 @@ createSkillsSection(skills);
 const projectDetails = [
   {
     index: "01",
-    name: "Quiz App Using React",
-    logo: "./images/quizLogo.png",
-    websiteLink: "https://jp3jmn.csb.app/",
-    projectLink: "https://github.com/gayathri1462/ReactQuizApp",
-    technology: "HTML, CSS & ReactJS",
+    name: "CSV Data Visualization Tool",
+    logo: "images/CSVDataVizualization.png",
+    websiteLink: "https://s9xl48.csb.app/",
+    projectLink: "https://github.com/gayathri1462/CSVDataVisualizationTool",
+    technology: "ReactJS, Redux, Antd, ChartJS and React-Spreadsheet",
     desc:
-      "Developed a quiz application using React, allowing users to participate in an interactive quiz which has a user-friendly interface with multiple-choice questions"
+      "The CSV Data Visualization Tool allows you to easily upload, view, edit, and visualize CSV files."
   },
   {
     index: "02",
-    name: "User Management App Using React",
-    logo: "./images/userApp.png",
-    websiteLink: "https://2x7tt5.csb.app/",
-    projectLink: "https://github.com/gayathri1462/UserManagementApplication",
+    name: "GitHub Profile Viewer",
+    logo: "images/profileviewer.png",
+    websiteLink: "https://jq83tp.csb.app/",
+    projectLink: "https://github.com/gayathri1462/GitHubProfileViewer",
+    technology: "ReactJS, Redux Tookit, Axios & TypeScript",
+    desc:
+      "The GitHub Profile Viewer App is a web application built using React and Redux Toolkit, designed to provide users with a seamless way to search for GitHub usernames and retrieve comprehensive user information using the GitHub API. Users can easily explore user profiles, including their details, followers, and following lists."
+  },
+  {
+    index: "03",
+    name: "Quiz Application",
+    logo: "images/quizapp.png",
+    websiteLink: "https://jp3jmn.csb.app/",
+    projectLink: "https://github.com/gayathri1462/ReactQuizApp",
+    technology: "HTML, CSS, ReactJS & JavaScript",
+    desc:
+      "Developed a quiz application using React, allowing users to participate in an interactive quiz. Implemented a user-friendly interface with multiple-choice questions, instant results, and a responsive design."
+  },
+  {
+    index: "04",
+    name: "Task Management Application",
+    logo: "images/todoapp.png",
+    websiteLink: "https://4rc7v5.csb.app/",
+    projectLink: "https://github.com/gayathri1462/ToDoApp-TaskHarbor",
     technology: "HTML, CSS, ReactJS, Redux & TypeScript",
     desc:
-      "Developed a user management web application, featuring CRUD functionalities for efficient user data management and a middleware to handle asynchronous operations."
+      "This powerful web app, using React JS and Redux, offers complete CRUD features for efficient task management. React Thunk middleware streamlines complex async tasks, ensuring top performance and user ease."
   }
 ];
 
@@ -114,14 +145,13 @@ function createProjectElement(project) {
   const projectContainer = document.createElement("div");
   projectContainer.classList.add("project");
 
-  /*
   const projectLogo = document.createElement("img");
   projectLogo.src = project.logo;
-  projectLogo.alt = "";
+  projectLogo.alt = project.name;
   projectLogo.width = "600";
-  projectLogo.height = "300";
+  projectLogo.height = "400";
   projectLogo.classList.add("project-logo");
-  projectContainer.appendChild(projectLogo); */
+  projectContainer.appendChild(projectLogo);
 
   const projectTitle = document.createElement("h3");
   projectTitle.textContent = project.name;
@@ -180,11 +210,17 @@ const experienceDetails = [
     role: "Junior Frontend Developer",
     year: "Aug 2022 – Current",
     location: "Bengaluru",
+    application: "https://pravid.io/",
+    appLogo: "images/pravid.png",
     points: [
-      "➤ Developed UI components and optimized performance of the web application.",
-      "➤ Collaborated with cross-functional teams to implement new features and enhancements, translating design mockups into functional web pages.",
-      "➤ Conducted code reviews, and resolved front-end bugs to deliver high-quality and responsive web application.",
-      "➤ Implemented unit tests using Jest framework for application reliability."
+      "➤ Achieved a 50% reduction in bundle size by optimizing Webpack configurations, resulting in faster load times and improved performance.",
+      "➤ Developed responsive web pages using React.js, ensuring an excellent user experience across devices with CRUD functionalities.",
+      "➤ Efficiently managed application state and reduced API calls on page render by 50% through seamless integration with Redux Saga.",
+      "➤ Designed and implemented interactive data dashboards using Chart.js, enhancing data presentation and user engagement.",
+      "➤ Attained an 80% unit test coverage using Jest, ensuring application reliability and reducing the likelihood of bugs.",
+      "➤ Provided leading feature development for various modules, ensuring timely completion and successful project milestones.",
+      "➤ Conducted code reviews and resolved front-end bugs to deliver a responsive web application.",
+      "➤ Created reusable and modular components, improving development efficiency and code maintainability, resulting in a 30% reduction in development time."
     ]
   }
 ];
@@ -200,6 +236,12 @@ function createExperienceElement(experience) {
                 <h2>${experience.name}</h2>
                 <p class="year">${experience.year}</p>
                 <p class="location">${experience.location}</p>
+                <a class="appLink" href=${
+                  experience.application
+                } target="_blank"><em>Application : Pravid</em></a>
+                <img class="appImage" src="${experience.appLogo}" alt="${
+    experience.name
+  }">
                </div>
                 <ul>
                     ${experience.points

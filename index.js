@@ -102,7 +102,7 @@ const projectDetails = [
   {
     index: "01",
     name: "CSV Data Visualization Tool",
-    logo: "images/CSVDataVizualization.png",
+    logo: "./images/CSVDataVizualization.png",
     websiteLink: "https://s9xl48.csb.app/",
     projectLink: "https://github.com/gayathri1462/CSVDataVisualizationTool",
     technology: "ReactJS, Redux, Antd, ChartJS and React-Spreadsheet",
@@ -112,7 +112,7 @@ const projectDetails = [
   {
     index: "02",
     name: "GitHub Profile Viewer",
-    logo: "images/profileviewer.png",
+    logo: "./images/profileviewer.png",
     websiteLink: "https://jq83tp.csb.app/",
     projectLink: "https://github.com/gayathri1462/GitHubProfileViewer",
     technology: "ReactJS, Redux Tookit, Axios & TypeScript",
@@ -122,7 +122,7 @@ const projectDetails = [
   {
     index: "03",
     name: "Quiz Application",
-    logo: "images/quizapp.png",
+    logo: "./images/quizapp.png",
     websiteLink: "https://jp3jmn.csb.app/",
     projectLink: "https://github.com/gayathri1462/ReactQuizApp",
     technology: "HTML, CSS, ReactJS & JavaScript",
@@ -132,7 +132,7 @@ const projectDetails = [
   {
     index: "04",
     name: "Task Management Application",
-    logo: "images/todoapp.png",
+    logo: "./images/todoapp.png",
     websiteLink: "https://4rc7v5.csb.app/",
     projectLink: "https://github.com/gayathri1462/ToDoApp-TaskHarbor",
     technology: "HTML, CSS, ReactJS, Redux & TypeScript",
@@ -206,12 +206,12 @@ createProjectsSection(projectDetails);
 const experienceDetails = [
   {
     name: "Saarthi.ai",
-    logo: "images/saarthiLogo.png",
+    logo: "../images/saarthiLogo.png",
     role: "Junior Frontend Developer",
     year: "Aug 2022 – Current",
     location: "Bengaluru",
     application: "https://pravid.io/",
-    appLogo: "images/pravid.png",
+    appLogo: "../images/pravid.png",
     points: [
       "➤ Achieved a 50% reduction in bundle size by optimizing Webpack configurations, resulting in faster load times and improved performance.",
       "➤ Developed responsive web pages using React.js, ensuring an excellent user experience across devices with CRUD functionalities.",
